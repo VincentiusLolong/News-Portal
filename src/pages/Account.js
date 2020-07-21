@@ -13,7 +13,7 @@ class Account extends React.Component{
         const expires = new Date(new Date().getTime() + (parseInt(expired) * 60 * 1000));
         console.log('state ', this.state);
 
-        const response = await fetch(`http://localhost:8080/auth?username=${this.state.em}&password=${this.state.pwd}`);
+        const response = await fetch(`http://128.199.80.245:8080/auth?username=${this.state.em}&password=${this.state.pwd}`);
         const json = await response.json();
 
         cHandler.set('tk', json.token, { expires, path: '/' });         // token

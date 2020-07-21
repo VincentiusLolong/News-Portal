@@ -7,7 +7,7 @@ class ListArticle extends React.Component {
         fetch: false
     }
     async componentDidMount(){
-        const response = await fetch('http://localhost:8080/content');
+        const response = await fetch('http://128.199.80.245:8080/content');
         const json = await response.json();
         this.setState({
             data: json.data,

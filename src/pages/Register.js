@@ -12,7 +12,7 @@ class Register extends React.Component {
         const { email, password } = this.state;
         console.log(this.state);
 
-        const response = await fetch(`http://localhost:8080/auth/user?username=${email}&password=${password}`);
+        const response = await fetch(`http://128.199.80.245:8080/auth/user?username=${email}&password=${password}`);
         const data = response.json();
 
         if (data) {

@@ -12,7 +12,7 @@ class ListContent extends React.Component {
     }
 
     async componentDidMount(){
-        const response = await fetch('http://localhost:8080/content');
+        const response = await fetch('http://http://128.199.80.245:8080/content');
         const json = await response.json();
         this.setState({
             data: json.data,
@@ -21,7 +21,7 @@ class ListContent extends React.Component {
     }
 
     deleteData = async (id) => {
-        const response = await fetch('http://localhost:8080/delete/content/'+id);
+        const response = await fetch('http://http://128.199.80.245:8080/delete/content/'+id);
         const json = await response.json();
         window.location.reload();
         alert(json, 'success');

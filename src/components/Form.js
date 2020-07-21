@@ -34,7 +34,7 @@ class FormArticle extends React.Component {
     }
 
     getDetailContent = async (id) => {
-        const response = await fetch(`http://localhost:8080/content/${id}`);
+        const response = await fetch(`http://128.199.80.245:8080/content/${id}`);
         const json = await response.json();
         
         return json.data;
@@ -57,7 +57,7 @@ class FormArticle extends React.Component {
         const payload = {
             title, tag, image, content, author: token
         }
-        fetch(`http://localhost:8080${endpoint}`,{
+        fetch(`http://128.199.80.245:8080${endpoint}`,{
             headers: {
                 'Content-Type': 'application/json'
             },

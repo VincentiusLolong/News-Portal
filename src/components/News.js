@@ -11,7 +11,7 @@ class DetailNews extends React.Component {
         const { location, history } = this.props;
 
         const idNews =  location.pathname.split('news/');
-        const response = await fetch(`http://localhost:8080/content/${idNews[1]}`);
+        const response = await fetch(`http://128.199.80.245:8080/content/${idNews[1]}`);
         const json = await response.json();
         
         this.setState({
