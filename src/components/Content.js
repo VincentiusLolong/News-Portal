@@ -21,7 +21,7 @@ class ListContent extends React.Component {
     }
 
     deleteData = async (id) => {
-        const response = await fetch('http://http://128.199.80.245:8080/delete/content/'+id);
+        const response = await fetch('http://128.199.80.245:8080/delete/content/'+id);
         const json = await response.json();
         window.location.reload();
         alert(json, 'success');
