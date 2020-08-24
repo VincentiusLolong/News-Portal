@@ -1,11 +1,7 @@
 UAS Pemrosesan Data Tersebar
 
-Ketua Kelompok :
-1.	Vincentius Tri Nugroho Kuswiharto Lolong 	  (20170801214)
-Anggota :
-2.	Ari Rocadi 				          (20170801231)
-3.	Abdul Rasyid Yuwana 			          (20170801215)
-4.	Ekin Wijaya 				          (20170801144)
+Nama : Vincentius Tri Nugroho Kuswiharto Lolong 	  (20170801214)
+
 
 Bisa membuka atau running website menggunakan 2 cara :
 A. dengan menggunakan Hosting
@@ -28,7 +24,7 @@ Cara menjalankan Website :
    a. Copy dan pastekan Link ini : https://nodejs.org/dist/v14.5.0/node-v14.5.0-x64.msi
    b. Setelah download Filenya yang berkisar 28 MB, lakukan penginstallan dengan tekan next, centang "i accept the terms" dan tekan "next" hingga masuk ke proses install dan done.
 
-2. Extract File Zip "UAS Pemrosesan data tersebar Portal Berita", dan lakukan langkah - langkah berikut ini :
+2. Extract File Zip, dan lakukan langkah - langkah berikut ini :
    a. Buka CMD
    b. ketik (cd..) dua kali hingga menjadi "C:" dan ketik :D atau :E untuk berpindah dari locl disk C ke Local disk sesuai keinginan
    c. cari file bernama News yang sudah diekstrak sebelumnya dan ketik : cd ..\News-Portal 
