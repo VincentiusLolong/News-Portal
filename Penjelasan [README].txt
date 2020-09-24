@@ -1,24 +1,10 @@
-UAS Pemrosesan Data Tersebar
-
-Nama : Vincentius Tri Nugroho Kuswiharto Lolong 	  (20170801214)
-
-
 Bisa membuka atau running website menggunakan 2 cara :
-A. dengan menggunakan Hosting
-B. dengan melakukan running dapa codingan
+A. dengan melakukan running dapa codingan
+B. dengan menggunakan Hosting
 
 
-A. dengan menggunakan Hosting
-berikut Link Hostingnya : http://128.199.80.245:3000/  
-dan link youtube dibawah ini merupakan Video tentang cara menjalankan Website pada link hosting diatas 
-Link Youtube  : https://youtu.be/lerv74a9rgY
 
-
-B. Dengan melakukan Running pada codingan
-Di dalam File Zip Terdapat : 
-1. File PDF Laporan SRS Yang bernama "UAS Pemrosesan Data Tersebar_Project Website Protal Berita"
-2. Folde yang bernama "news" digunakan untuk menjalankan website
-
+A. Dengan melakukan Running pada codingan
 Cara menjalankan Website :
 1. yang pertama adalah menginstall NodeJS di personal Computer dengan cara :
    a. Copy dan pastekan Link ini : https://nodejs.org/dist/v14.5.0/node-v14.5.0-x64.msi
@@ -36,7 +22,14 @@ Cara menjalankan Website :
    f. dan akaan muncul localhost:3000
 
 3. setelah muncul localhost:3000, maka untuk tahap selanjutnya dapat dilihat di link youtube diatas sebelumnya, karena link youtube ini (https://youtu.be/lerv74a9rgY) menjelaskan fitur -fitur dan penggunaannya 
-   catatan : localhost:3000/register untuk melakukan registrasi akun atuhor(pembuat berita)
-             Loclahost:3000/account untuk masuk ke dalam 
+   catatan : localhost:3000/register   : untuk melakukan registrasi akun atuhor(pembuat berita)
+             Loclahost:3000/account    : digunakan untuk login agar bisaa msuk ke portal author sebgai pembuat berita
+	     Localhost:3000            : halaman utama 
 
+
+B. dengan menggunakan Hosting
+berikut Link Hostingnya : 
+-.  http://128.199.80.245:3000/ 	  : halaman utama 
+-.  http://128.199.80.245:3000//register  : digunakan untuk login agar bisaa msuk ke portal author sebgai pembuat berita
+-.  http://128.199.80.245:3000//account   : untuk melakukan registrasi akun atuhor(pembuat berita)
 
